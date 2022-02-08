@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    color: rgb(25, 32, 32);
+    background-color: rgb(189, 140, 186);
+    padding: 20px 0;
+
+    /* Habilitamos los poderes de flebox*/
+    display: flex;
+    /* Alinear horizontalmente*/
+    justify-content: center;
+}
+
+.header {
+    border: 1px solid rgb(61, 12, 12);
+    width: 60%;
+    /* Habilito Flexbox */
+    display: flex;
+    /* Alinea horiz sinot que distribuye los elementos en todos el ancho que contiene*/
+    justify-content: space-around;
+
+}
+    /* Fin de los estilos para le Header/
+/* Flex container - Flex items*/ 
+
+/* Estilos para la seccion de productos*/
+
+.section-container {
+    color: rgb(46, 34, 34);
+    background-color: rgb(203, 216, 209);
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    /* Alineacion vertical*/
+    align-items: center;
+}
+
+/* Estilos para photo-grid-container*/
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* Flex-wrap*/
+    flex-wrap: wrap;
+    /*Flex direction / columnas / filas/ column-reverse*/
+    flex-direction: row;
+
+}
+  
+.first-item {
+    /* order*/
+    order: 1;
+}
+
+.last-item {
+    order: -1;
+}
+
+
+
+
+
+
+
